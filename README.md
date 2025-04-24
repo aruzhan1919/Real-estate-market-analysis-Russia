@@ -19,24 +19,24 @@ The dataset includes information about apartment listings such as:
 - Time on market (exposure time)
 - Listing price
 
-**Technologies Used**
+**Technologies Used:**
 pandas, numpy, seaborn, matplotlib, plotly, datetime
 
 **Process and Methods**
-Data Preprocessing
-Converted date columns to datetime format
-Removed duplicates
-Filled missing values using medians and group-based means
-Exploratory Analysis
-Distribution plots for features such as ceiling height, floor number, price
-Bar charts to understand how many listings are on each floor type
-Correlation matrix between numerical variables
-Time-series analysis to observe monthly and yearly trends
-Visualization Techniques
-Bar charts and histograms for categorical distributions
-Box plots to detect outliers in price
-Line plots for temporal trends
-Interactive charts with plotly for better visual inspection
+1. Data Preprocessing
+- Converted date columns to datetime format
+- Removed duplicates
+- Filled missing values using medians and group-based means
+2. Exploratory Analysis
+- Distribution plots for features such as ceiling height, floor number, price
+- Bar charts to understand how many listings are on each floor type
+- Correlation matrix between numerical variables
+- Time-series analysis to observe monthly and yearly trends
+3. Visualization Techniques
+- Bar charts and histograms for categorical distributions
+- Box plots to detect outliers in price
+- Line plots for temporal trends
+- Interactive charts with plotly for better visual inspection
 
 **Key Observations**
 - Properties closer to the city center are generally more expensive
@@ -45,8 +45,7 @@ Interactive charts with plotly for better visual inspection
 - Most listings are added in spring and early summer months
 
 **How to Run**
-Clone the repository
-Open the notebook in Jupyter or any compatible editor
-Install required libraries:
-pip install pandas numpy matplotlib seaborn plotly
-Run the notebook cells sequentially to reproduce the analysis
+1. Clone the repository
+2. Open the notebook in Jupyter or any compatible editor
+3. Install required libraries: pip install pandas numpy matplotlib seaborn plotly
+4. Run the notebook cells sequentially to reproduce the analysis
